@@ -17,7 +17,7 @@
 		35C2305A2631C27500A6B125 /* Project2.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C2304A2631C27500A6B125 /* Project2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35C2305D2631C27500A6B125 /* Project2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C230482631C27500A6B125 /* Project2.framework */; };
 		35C2305E2631C27500A6B125 /* Project2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35C230482631C27500A6B125 /* Project2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35C2306E2632189800A6B125 /* ExampleProject1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2306D2632189800A6B125 /* ExampleProject1ViewController.swift */; };
+		35C2306E2632189800A6B125 /* ExampleProject2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2306D2632189800A6B125 /* ExampleProject2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		35C230502631C27500A6B125 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C230572631C27500A6B125 /* Project2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Tests.swift; sourceTree = "<group>"; };
 		35C230592631C27500A6B125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35C2306D2632189800A6B125 /* ExampleProject1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProject1ViewController.swift; sourceTree = "<group>"; };
+		35C2306D2632189800A6B125 /* ExampleProject2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProject2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 			children = (
 				35C2304A2631C27500A6B125 /* Project2.h */,
 				35C2304B2631C27500A6B125 /* Info.plist */,
-				35C2306D2632189800A6B125 /* ExampleProject1ViewController.swift */,
+				35C2306D2632189800A6B125 /* ExampleProject2ViewController.swift */,
 				35C1E71526334C7100D82A74 /* Project2Assets.xcassets */,
 			);
 			path = Project2;
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C2306E2632189800A6B125 /* ExampleProject1ViewController.swift in Sources */,
+				35C2306E2632189800A6B125 /* ExampleProject2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

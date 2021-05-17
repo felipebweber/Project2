@@ -23,7 +23,7 @@ class ViewController: UIViewController {
        
         button.backgroundColor = .systemGray2
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Button Clicked", for: .normal)
+        button.setTitle("Open project 2", for: .normal)
         button.setTitleColor(.blue, for: .normal)
         button.center = .zero
         button.layer.borderWidth = 2
@@ -57,11 +57,7 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonAction(_ sender: UIButton!) {
-        let vc = ExampleProject1ViewController()
-        //let vc = Example2()
-//        let vc = TestViewController()
-//        self.present(vc, animated: true, completion: nil)
-        //self.present(vc, animated: true, completion: nil)
+        let vc = ExampleProject2ViewController()
         self.show(vc, sender: nil)
     }
 

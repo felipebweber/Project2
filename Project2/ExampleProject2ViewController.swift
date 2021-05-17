@@ -7,7 +7,7 @@
 
 import UIKit
 
-public final class ExampleProject1ViewController: UIViewController {
+public final class ExampleProject2ViewController: UIViewController {
 
 
     let labelTitle: UILabel = {
@@ -35,7 +35,7 @@ public final class ExampleProject1ViewController: UIViewController {
 
         image.translatesAutoresizingMaskIntoConstraints = false
         
-        image.image = UIImage(named: "logo", in: Bundle(for: ExampleProject1ViewController.self), compatibleWith: nil)
+        image.image = UIImage(named: "logo", in: Bundle(for: ExampleProject2ViewController.self), compatibleWith: nil)
         image.backgroundColor = .clear
         image.contentMode = .scaleAspectFit
         
