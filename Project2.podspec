@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "Project2"
 
   # 3 - Versão do pod
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
 
   # 4 - URL do projeto
   spec.homepage     = "https://github.com/felipebweber/Project2"
