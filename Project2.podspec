@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   # 1 - Configurações gerais
   spec.platform     = :ios
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '13.0'
   spec.swift_version = '5.2.0'
   spec.summary      = "Este é um projeto exemplo que ajuda no entendimento basico de como modularizar projetos usando CocoaPods"
 
